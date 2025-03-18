@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple Grid</title>
+<style>
+body {
+        font-family: times new roman, sans-serif;
+        background-color: #FFF558;
+       
+    }
+
+
+
+
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1FR ;
+            grid-template-rows:1fr 1fr 1fr;
+         
+        gap: 10px;
+    }
+    .item {
+        background-color: #F8FFC5;
+        padding: 20px;
+        text-align: center;
+        border: 1px solid #ddd;
+            }
+        .item2 {
+        grid-columN:1/2;
+            GRID-ROW:1/3;
+        background-color: #F8FFC5;
+        padding: 20px;
+        text-align: center;
+        border: 1px solid #ddd;
+         
+    }
+         .item3 {
+        grid-columN:2/4;
+            GRID-ROW:1/2;
+        background-color: #F8FFC5;
+        padding: 20px;
+        text-align: center;
+        border: 1px solid #ddd;
+    }
+
+.item4 {
+        grid-columN:3/5;
+            GRID-ROW:2/4;
+        background-color: #F8FFC5;
+        padding: 20px;
+        text-align: center;
+        border: 1px solid #ddd;
+    }
+   
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="item"> <h2>  Sudaderas </h2></div>
+    <div class="item"> <h2> Conjunts </h2></div>
+        <div class="item"> <h2> Sabates </h2></div>
+        <div class="item"> <h2> Gorres </h2></div>
+        <div class="item"> <img src="https://static.bershka.net/assets/public/1b2a/288f/ec5049ccb201/67d93b2634a4/07377003800-p/07377003800-p.jpg?ts=1718009704488&w=800"  width="80%" height="80%"></div>
+        <div class="item"> <img src="https://static.bershka.net/4/photos2/2024/V/0/1/b/1375/777/505/BS/BS/1375777505_2_24_0.jpg?imwidth=800&ts=1709820631036"  width="80%" height="80%"> </div>
+         <div class="item"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtH1piXyiNf7KGpUqmVhmSvt1Zktlol7Liow&s" width="80%" height="80%"> </div>
+        <div class="item"> <img src=" https://amenmadrid.com/14552-large_default/gorra-new-york-yankees-azul.jpg" width="80%" height="80%"></div>
+        
+     
+       
+</div>
+</body>
+</html>
